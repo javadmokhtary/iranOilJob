@@ -1,0 +1,100 @@
+
+.course-item {
+    background: #FFFFFF;
+    border: 1px solid #F7F8FA;
+    box-shadow: 0px 27px 44px rgba(0, 0, 0, 0.02);
+    border-radius: 20px;
+    padding: 12px;
+    margin-left: 24px;
+    .course-image {
+      cursor: pointer;
+      background: url('../images/curse-item.png');
+      background-size: cover;
+      border-radius: 10px;
+      height: 208px;
+      position: relative;
+      .play-icon {
+        width: 40px;
+        height: 40px;
+        background: url('../icons/play.png');
+        z-index: 201;
+      }
+      .label {
+        position: absolute;
+        padding: 4px 16px;
+        bottom: 12px;
+        right: 12px;
+        background: rgba(229, 231, 235, 0.4);
+        border-radius: 6px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 20px;
+        font-family: ShabnamBoldFD;
+        @media screen and (max-width: 991px) {
+          font-size: 10px;
+        }
+      }
+    }
+    .course-educator {
+      margin-top: 16px;
+      font-size: 14px;
+      line-height: 24px;
+      text-align: right;
+      color: #6A707D;
+      font-family: Shabnam;
+      @media screen and (max-width: 991px) {
+        font-size: 12px;
+      }
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+    .course-title {
+      margin-top: 8px;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 27px;
+      display: flex;
+      align-items: center;
+      text-align: right;
+      color: #2E333D;
+      font-family: ShabnamBoldFD;
+      @media screen and (max-width: 991px) {
+        font-size: 18px;
+      }
+    }
+    .course-time {
+      margin-top: 12px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+      text-align: right;
+      color: #6A707D;
+      font-family: ShabnamBoldFD;
+      @media screen and (max-width: 991px) {
+        font-size: 12px;
+      }
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+    button {
+      margin-top: 20;display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 8px 12px;
+      gap: 8px;
+      width: 359px;
+      height: 40px;
+      background: #F6AE2D;
+      border-radius: 6px;
+      font-family: ShabnamBoldFD;
+      @media screen and (max-width: 991px) {
+        width: 285px;
+      }
+    }
+  }

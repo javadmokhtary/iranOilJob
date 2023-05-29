@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa-IR">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>Iran Oil Job</title>
+  <link rel="stylesheet" href="./assets/fonts/shabnam/font-face.css">
+  <link rel="stylesheet" href="./assets/fonts/Vazir-FD-WOL/font-face.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="containerr">
+    <div class="flex justify-between header">
+      <div class="flex items-center right-side">
+        <a href="#"><img src="./assets/images/logo.webp" alt="Iran old Job"></a>
+        <ul class="flex m-0 md:ms-10 menu-items">
+          <li class="flex justify-center block md:hidden">
+            <a href="#"><img src="./assets/images/logo.webp" alt="Iran old Job"></a>
+          </li>
+          <li>
+            <a href="#">فرصت های شغلی</a>
+          </li>
+          <li>
+            <a href="#">لیست دوره ها</a>
+          </li>
+          <li>
+            <a href="#">تدریس در اوایل آکادمی</a>
+          </li>
+          <li>
+            <a href="#">ارزیابی مدرک</a>
+          </li>
+        </ul>
+      </div>
+      <div class="flex items-center">
+        <a href="#" class="hidden md:block">بخش کاریابی</a>
+        <div class="divider mx-3 hidden md:block"></div>
+        <button class="button-icons mx-2">
+          <img src="./assets/icons/shopping-bag.png" alt="shopping bag icon">
+          <span class="badge">2</span>
+        </button>
+        <button class="button-icons">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path data-name="MenuItems/Icons/Guest background" style="fill:none" d="M0 0h24v24H0z"></path>
+            <g data-name="Group 76380">
+                <g data-name="Rectangle 8018" style="stroke:#898a8c;stroke-width:1.5px;fill:none" transform="translate(3 3)">
+                    <rect width="18" height="18" rx="9" style="stroke:none"></rect>
+                    <rect x=".75" y=".75" width="16.5" height="16.5" rx="8.25" style="fill:none"></rect>
+                </g>
+                <g data-name="Intersection 2" style="fill:none">
+                    <path d="M0 1.685a9 9 0 0 1 10.487 0A5.295 5.295 0 0 1 0 1.685z" style="stroke:none" transform="rotate(180 8.622 10.5)"></path>
+                    <path d="M5.244 1.5c-1.242 0-2.44.3-3.518.874a3.814 3.814 0 0 0 3.518 2.37 3.813 3.813 0 0 0 3.518-2.37A7.45 7.45 0 0 0 5.244 1.5m0-1.5C7.2 0 9.011.624 10.487 1.684A5.296 5.296 0 0 1 0 1.684 8.96 8.96 0 0 1 5.244 0z" style="fill:#898a8c;stroke:none" transform="rotate(180 8.622 10.5)"></path>
+                </g>
+                <g data-name="Ellipse 527" transform="translate(8.294 6.206)" style="stroke:#898a8c;stroke-width:1.5px;fill:none">
+                    <circle cx="3.706" cy="3.706" r="3.706" style="stroke:none"></circle>
+                    <circle cx="3.706" cy="3.706" r="2.956" style="fill:none"></circle>
+                </g>
+            </g>
+          </svg>
+        </button>
+        <button class="button-icons ms-2 block md:hidden" id="open-side-bar" onclick="toggleSideBar('open')">
+          <svg version="1.1" id="Layer_1" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="#9FA0A1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 103.17" style="enable-background:new 0 0 122.88 103.17" xml:space="preserve"><g><path d="M26,0h70.87c7.15,0,13.65,2.93,18.36,7.64l0.22,0.24c4.58,4.69,7.42,11.1,7.42,18.13v51.16c0,7.15-2.93,13.65-7.64,18.36 c-4.71,4.71-11.21,7.64-18.36,7.64H26c-7.14,0-13.64-2.93-18.35-7.64H7.64C2.93,90.82,0,84.32,0,77.16V26 c0-7.13,2.92-13.63,7.64-18.35l0.02-0.03C12.38,2.92,18.87,0,26,0L26,0z M41.31,29.74h40.26c2.25,0,4.09,1.84,4.09,4.09l0,0 c0,2.25-1.84,4.09-4.09,4.09H41.31c-2.25,0-4.09-1.84-4.09-4.09l0,0C37.22,31.58,39.06,29.74,41.31,29.74L41.31,29.74L41.31,29.74z M41.31,65.25h40.26c2.25,0,4.09,1.84,4.09,4.09l0,0c0,2.25-1.84,4.09-4.09,4.09l-40.26,0c-2.25,0-4.09-1.84-4.09-4.09l0,0 C37.22,67.09,39.06,65.25,41.31,65.25L41.31,65.25L41.31,65.25z M41.31,47.5h40.26c2.25,0,4.09,1.84,4.09,4.09l0,0 c0,2.25-1.84,4.09-4.09,4.09H41.31c-2.25,0-4.09-1.84-4.09-4.09l0,0C37.22,49.34,39.06,47.5,41.31,47.5L41.31,47.5L41.31,47.5z M96.88,8.2H26c-4.9,0-9.35,2-12.57,5.22l-0.02,0.02C10.2,16.65,8.2,21.1,8.2,26v51.16c0,4.89,2.01,9.34,5.23,12.56l-0.01,0.01 c3.23,3.22,7.68,5.23,12.57,5.23h70.87c4.88,0,9.33-2.01,12.56-5.24c3.23-3.23,5.24-7.68,5.24-12.56V26c0-4.8-1.93-9.17-5.04-12.39 l-0.19-0.18C106.21,10.21,101.77,8.2,96.88,8.2L96.88,8.2z"/></g></svg>
+        </button>
+        <button class="button-icons ms-2 hidden md:hidden" id="close-side-bar" onclick="toggleSideBar('close')">
+          <svg version="1.1" id="Layer_1" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="#9FA0A1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="122.878px" height="122.88px" viewBox="0 0 122.878 122.88" enable-background="new 0 0 122.878 122.88" xml:space="preserve"><g><path d="M1.426,8.313c-1.901-1.901-1.901-4.984,0-6.886c1.901-1.902,4.984-1.902,6.886,0l53.127,53.127l53.127-53.127 c1.901-1.902,4.984-1.902,6.887,0c1.901,1.901,1.901,4.985,0,6.886L68.324,61.439l53.128,53.128c1.901,1.901,1.901,4.984,0,6.886 c-1.902,1.902-4.985,1.902-6.887,0L61.438,68.326L8.312,121.453c-1.901,1.902-4.984,1.902-6.886,0 c-1.901-1.901-1.901-4.984,0-6.886l53.127-53.128L1.426,8.313L1.426,8.313z"/></g></svg>
+        </button>
+      </div>
+    </div>
+    <div class="main-section">
+      <div class="item flex slider-section">
+        <div class="description">
+          <p>
+            نگاهی بر
+            <b class="mt-6">صنعت حفاری</b>
+            <span>صنعت حفاری کلیدی ترین بخش عملیات بالادستی برای دستیابی به مخازن نفت و گاز و حلقه آغازین زنجیره ارزش در فرايند تولید است.</span>
+          </p>
+          <div>
+            <a class="more-link">
+              <span class="me-2">اطلاعات بیشتر</span>
+              <img src="./assets/icons/arrow-left-white.png" alt="arrow left icon">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="block lg:flex justify-between item about-section">
+        <div class="description">
+          <p>
+            درباره این صنعت
+            <b>چرا صنعت حفاری اهمیت دارد؟</b>
+          </p>
+        </div>
+        <div>
+          <div class="grid grid-cols-1 md:grid-cols-2 mt-8 md:mt-1 gap-4 right-content">
+            <div class="right-description">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+            </div>
+            <div class="left-description">
+              کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+            </div>
+          </div>
+          <div class="flex justify-center block mt-6 md:mt-16">
+            <div class="image-slider">
+              <img class="active" src="./assets/images/slider-1.png" />
+              <img src="./assets/images/slider-2.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item courses-section">
+        <div class="block lg:flex justify-between">
+          <div class="description">
+            <p>
+              دوره های آموزشی
+              <b>صفر تا صد صنعت حفاری</b>
+            </p>
+          </div>
+          <div class="flex justify-end items-center">
+            <button class="course-button back mx-2">
+              <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.8613 20.8613C12.6013 21.1213 12.6013 21.5441 12.8613 21.804C12.992 21.9347 13.1627 21.9987 13.3333 21.9987C13.504 21.9987 13.6747 21.9334 13.8053 21.804L19.1387 16.4707C19.3987 16.2107 19.3987 15.788 19.1387 15.528L13.8053 10.1947C13.5453 9.93468 13.1226 9.93468 12.8626 10.1947C12.6026 10.4547 12.6026 10.8774 12.8626 11.1374L17.724 15.9987L12.8613 20.8613Z"/>
+              </svg>
+            </button>
+            <button class="course-button next active">
+              <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.8613 20.8613C12.6013 21.1213 12.6013 21.5441 12.8613 21.804C12.992 21.9347 13.1627 21.9987 13.3333 21.9987C13.504 21.9987 13.6747 21.9334 13.8053 21.804L19.1387 16.4707C19.3987 16.2107 19.3987 15.788 19.1387 15.528L13.8053 10.1947C13.5453 9.93468 13.1226 9.93468 12.8626 10.1947C12.6026 10.4547 12.6026 10.8774 12.8626 11.1374L17.724 15.9987L12.8613 20.8613Z"/>
+              </svg>            
+            </button>
+          </div>
+        </div>
+        <div class="flex mt-12 course-items-box">
+          <div class="course-item">
+            <div class="course-image flex items-center justify-center">
+              <span class="label">دریافت مدرک معتبر آکادمی ایران اویل</span>
+              <span class="play-icon"></span>
+            </div>
+            <div class="course-educator flex">
+              <img src="./assets/icons/training.png" alt="educator icon" class="me-2">
+              <span>مدرس:</span>
+              <span>دکتر حسن بهرامی</span>
+            </div>
+            <div class="course-title">
+              <b>حفاری جهت دار چاه های نفت و گاز</b>
+            </div>
+            <div class="flex items-center course-time">
+              <img src="./assets/icons/clock-circle.png" alt="clock-circle icon">
+              <span class="ms-2">50 دقیقه</span>
+            </div>
+            <div class="mt-4">
+              <button>
+                1,342,500 تومان
+              </button>
+            </div>
+          </div>
+          <div class="course-item">
+            <div class="course-image flex items-center justify-center">
+              <span class="label">دریافت مدرک معتبر آکادمی ایران اویل</span>
+              <span class="play-icon"></span>
+            </div>
+            <div class="course-educator flex">
+              <img src="./assets/icons/training.png" alt="educator icon" class="me-2">
+              <span>مدرس:</span>
+              <span>دکتر حسن بهرامی</span>
+            </div>
+            <div class="course-title">
+              <b>حفاری جهت دار چاه های نفت و گاز</b>
+            </div>
+            <div class="flex items-center course-time">
+              <img src="./assets/icons/clock-circle.png" alt="clock-circle icon">
+              <span class="ms-2">50 دقیقه</span>
+            </div>
+            <div class="mt-4">
+              <button>
+                1,342,500 تومان
+              </button>
+            </div>
+          </div>
+          <div class="course-item">
+            <div class="course-image flex items-center justify-center">
+              <span class="label">دریافت مدرک معتبر آکادمی ایران اویل</span>
+              <span class="play-icon"></span>
+            </div>
+            <div class="course-educator flex">
+              <img src="./assets/icons/training.png" alt="educator icon" class="me-2">
+              <span>مدرس:</span>
+              <span>دکتر حسن بهرامی</span>
+            </div>
+            <div class="course-title">
+              <b>حفاری جهت دار چاه های نفت و گاز</b>
+            </div>
+            <div class="flex items-center course-time">
+              <img src="./assets/icons/clock-circle.png" alt="clock-circle icon">
+              <span class="ms-2">50 دقیقه</span>
+            </div>
+            <div class="mt-4">
+              <button>
+                1,342,500 تومان
+              </button>
+            </div>
+          </div>
+          <div class="course-item">
+            <div class="course-image flex items-center justify-center">
+              <span class="label">دریافت مدرک معتبر آکادمی ایران اویل</span>
+              <span class="play-icon"></span>
+            </div>
+            <div class="course-educator flex">
+              <img src="./assets/icons/training.png" alt="educator icon" class="me-2">
+              <span>مدرس:</span>
+              <span>دکتر حسن بهرامی</span>
+            </div>
+            <div class="course-title">
+              <b>حفاری جهت دار چاه های نفت و گاز</b>
+            </div>
+            <div class="flex items-center course-time">
+              <img src="./assets/icons/clock-circle.png" alt="clock-circle icon">
+              <span class="ms-2">50 دقیقه</span>
+            </div>
+            <div class="mt-4">
+              <button>
+                1,342,500 تومان
+              </button>
+            </div>
+          </div>
+          <div class="course-item">
+            <div class="course-image flex items-center justify-center">
+              <span class="label">دریافت مدرک معتبر آکادمی ایران اویل</span>
+              <span class="play-icon"></span>
+            </div>
+            <div class="course-educator flex">
+              <img src="./assets/icons/training.png" alt="educator icon" class="me-2">
+              <span>مدرس:</span>
+              <span>دکتر حسن بهرامی</span>
+            </div>
+            <div class="course-title">
+              <b>حفاری جهت دار چاه های نفت و گاز</b>
+            </div>
+            <div class="course-time">
+              50 دقیقه
+            </div>
+            <div>
+              <button>
+                1,342,500 تومان
+              </button>
+            </div>
+          </div>
+          <div class="course-item">
+            <div class="course-image flex items-center justify-center">
+              <span class="label">دریافت مدرک معتبر آکادمی ایران اویل</span>
+              <span class="play-icon"></span>
+            </div>
+            <div class="course-educator flex">
+              <img src="./assets/icons/training.png" alt="educator icon" class="me-2">
+              <span>مدرس:</span>
+              <span>دکتر حسن بهرامی</span>
+            </div>
+            <div class="course-title">
+              <b>حفاری جهت دار چاه های نفت و گاز</b>
+            </div>
+            <div class="course-time">
+              50 دقیقه
+            </div>
+            <div>
+              <button>
+                1,342,500 تومان
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item jobs-section">
+        <div class="block lg:flex justify-between">
+          <div class="description">
+            <p>
+              فرصت های شغلی
+              <b>آخرین فرصت های شغلی در صنعت حفاری</b>
+            </p>
+          </div>
+          <div class="flex justify-end items-center">
+            <button class="jobs-button flex items-center mx-2">
+              <span>مشاهده همه</span>
+              <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.8613 20.8613C12.6013 21.1213 12.6013 21.5441 12.8613 21.804C12.992 21.9347 13.1627 21.9987 13.3333 21.9987C13.504 21.9987 13.6747 21.9334 13.8053 21.804L19.1387 16.4707C19.3987 16.2107 19.3987 15.788 19.1387 15.528L13.8053 10.1947C13.5453 9.93468 13.1226 9.93468 12.8626 10.1947C12.6026 10.4547 12.6026 10.8774 12.8626 11.1374L17.724 15.9987L12.8613 20.8613Z"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="mt-12">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div class="job-item">
+              <div class="block md:flex">
+                <div class="flex md:block justify-center">
+                  <img src="./assets/images/oico-company.png" alt="oico-company">
+                </div>
+                <div class="flex items-center ms-1 md:ms-8">
+                  <div>
+                    <div>
+                      <b class="job-title">
+                        کارشناس تدارکات
+                      </b>
+                    </div>
+                    <div class="flex mt-1">
+                      <img src="./assets/icons/buliding.png" alt="buliding icon" class="buliding-icon me-2">
+                      <span class="job-description">
+                        راه اندازی و بهره برداری صنایع نفت(ایکو)
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <img src="./assets/icons/star.png" alt="star icon" class="star-icon">
+              </div>
+              <div class="flex justify-center md:justify-start mt-8">
+                <div class="flex items-center location-info">
+                  <img src="./assets/icons/location.png" alt="location icon">
+                  <span class="ms-2">تهران</span>
+                </div>
+                <div class="flex items-center briefcase-info ms-12">
+                  <img src="./assets/icons/briefcase.png" alt="briefcase icon">
+                  <span class="ms-2">5 سال سابقه کار</span>
+                </div>
+              </div>
+              <div class="job-divider my-6"></div>
+              <div class="flex justify-between items-center">
+                <span class="job-date">3 روز پیش</span>
+                <button class="flex items-center job-button">
+                  <span class="me-2">ارسال رزومه</span>
+                  <img src="./assets/icons/arrow-left.png" alt="arrow left icon" srcset="">
+                </button>
+              </div>
+            </div>
+            <div class="job-item">
+              <div class="block md:flex">
+                <div class="flex md:block justify-center">
+                  <img src="./assets/images/compas-company.png" alt="oico-company">
+                </div>
+                <div class="flex items-center ms-1 md:ms-8">
+                  <div>
+                    <div>
+                      <b class="job-title">
+                        کمپاس ( مسئول خدمات اردوگاهی)
+                      </b>
+                    </div>
+                    <div class="flex mt-1">
+                      <img src="./assets/icons/buliding.png" alt="buliding icon" class="buliding-icon me-2">
+                      <span class="job-description">
+                        شرکت حفاری استوان کیش
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <img src="./assets/icons/star.png" alt="star icon" class="star-icon">
+              </div>
+              <div class="flex justify-center md:justify-start mt-8">
+                <div class="flex items-center location-info">
+                  <img src="./assets/icons/location.png" alt="location icon">
+                  <span class="ms-2">درگز</span>
+                </div>
+                <div class="flex items-center briefcase-info ms-12">
+                  <img src="./assets/icons/briefcase.png" alt="briefcase icon">
+                  <span class="ms-2">5 سال سابقه کار</span>
+                </div>
+              </div>
+              <div class="job-divider my-6"></div>
+              <div class="flex justify-between items-center">
+                <span class="job-date">3 روز پیش</span>
+                <button class="flex items-center job-button">
+                  <span class="me-2">ارسال رزومه</span>
+                  <img src="./assets/icons/arrow-left.png" alt="arrow left icon" srcset="">
+                </button>
+              </div>
+            </div>
+            <div class="job-item">
+              <div class="block md:flex">
+                <div class="flex md:block justify-center">
+                  <img src="./assets/images/oico-company.png" alt="oico-company">
+                </div>
+                <div class="flex items-center ms-1 md:ms-8">
+                  <div>
+                    <div>
+                      <b class="job-title">
+                        کارشناس تدارکات
+                      </b>
+                    </div>
+                    <div class="flex mt-1">
+                      <img src="./assets/icons/buliding.png" alt="buliding icon" class="buliding-icon me-2">
+                      <span class="job-description">
+                        راه اندازی و بهره برداری صنایع نفت(ایکو)
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <img src="./assets/icons/star.png" alt="star icon" class="star-icon">
+              </div>
+              <div class="flex justify-center md:justify-start mt-8">
+                <div class="flex items-center location-info">
+                  <img src="./assets/icons/location.png" alt="location icon">
+                  <span class="ms-2">تهران</span>
+                </div>
+                <div class="flex items-center briefcase-info ms-12">
+                  <img src="./assets/icons/briefcase.png" alt="briefcase icon">
+                  <span class="ms-2">5 سال سابقه کار</span>
+                </div>
+              </div>
+              <div class="job-divider my-6"></div>
+              <div class="flex justify-between items-center">
+                <span class="job-date">3 روز پیش</span>
+                <button class="flex items-center job-button">
+                  <span class="me-2">ارسال رزومه</span>
+                  <img src="./assets/icons/arrow-left.png" alt="arrow left icon" srcset="">
+                </button>
+              </div>
+            </div>
+            <div class="job-item">
+              <div class="block md:flex">
+                <div class="flex md:block justify-center">
+                  <img src="./assets/images/compas-company.png" alt="oico-company">
+                </div>
+                <div class="flex items-center ms-1 md:ms-8">
+                  <div>
+                    <div>
+                      <b class="job-title">
+                        کمپاس ( مسئول خدمات اردوگاهی)
+                      </b>
+                    </div>
+                    <div class="flex mt-1">
+                      <img src="./assets/icons/buliding.png" alt="buliding icon" class="buliding-icon me-2">
+                      <span class="job-description">
+                        شرکت حفاری استوان کیش
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <img src="./assets/icons/star.png" alt="star icon" class="star-icon">
+              </div>
+              <div class="flex justify-center md:justify-start mt-8">
+                <div class="flex items-center location-info">
+                  <img src="./assets/icons/location.png" alt="location icon">
+                  <span class="ms-2">درگز</span>
+                </div>
+                <div class="flex items-center briefcase-info ms-12">
+                  <img src="./assets/icons/briefcase.png" alt="briefcase icon">
+                  <span class="ms-2">5 سال سابقه کار</span>
+                </div>
+              </div>
+              <div class="job-divider my-6"></div>
+              <div class="flex justify-between items-center">
+                <span class="job-date">3 روز پیش</span>
+                <button class="flex items-center job-button">
+                  <span class="me-2">ارسال رزومه</span>
+                  <img src="./assets/icons/arrow-left.png" alt="arrow left icon" srcset="">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item tags-section">
+        <div class="description">
+          <p>
+            تگ ها
+          </p>
+        </div>
+        <div class="mt-6 flex flex-wrap">
+          <a class="tag-badge">حفاری</a>
+          <a class="tag-badge">حفاری</a>
+          <a class="tag-badge">صنعت نفت</a>
+          <a class="tag-badge">صنعت نفت</a>
+          <a class="tag-badge">ایران اویل جاب</a>
+          <a class="tag-badge">ایران اویل جاب</a>
+          <a class="tag-badge">چرا حفاری</a>
+          <a class="tag-badge">چرا حفاری</a>
+          <a class="tag-badge">آموزش</a>
+          <a class="tag-badge">آموزش</a>
+          <a class="tag-badge">حفاری</a>
+          <a class="tag-badge">حفاری</a>
+          <a class="tag-badge">صنعت نفت</a>
+          <a class="tag-badge">صنعت نفت</a>
+          <a class="tag-badge">ایران اویل جاب</a>
+          <a class="tag-badge">ایران اویل جاب</a>
+          <a class="tag-badge">چرا حفاری</a>
+          <a class="tag-badge">چرا حفاری</a>
+          <a class="tag-badge">آموزش</a>
+          <a class="tag-badge">آموزش</a>
+          <a class="tag-badge">حفاری</a>
+          <a class="tag-badge">حفاری</a>
+          <a class="tag-badge">صنعت نفت</a>
+          <a class="tag-badge">صنعت نفت</a>
+          <a class="tag-badge">ایران اویل جاب</a>
+          <a class="tag-badge">ایران اویل جاب</a>
+          <a class="tag-badge">چرا حفاری</a>
+          <a class="tag-badge">چرا حفاری</a>
+          <a class="tag-badge">آموزش</a>
+          <a class="tag-badge">آموزش</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script>
+  function toggleSideBar(state) {
+    var openBtnEl = document.querySelector('#open-side-bar')
+    var closeBtnEl = document.querySelector('#close-side-bar')
+    openBtnEl.classList.toggle('hidden')
+    closeBtnEl.classList.toggle('hidden')
+    var sideBarEl = document.querySelector('.menu-items')
+    sideBarEl.classList.toggle("show")
+  }
+  setInterval(() => {
+    var element = document.querySelector('.image-slider').children[0]
+    element.classList.toggle("active")
+    var element2 = document.querySelector('.image-slider').children[1]
+    element2.classList.toggle("active")
+  }, 4000)
+</script>
+
+</html>

@@ -1,0 +1,33 @@
+@mixin timeline-line-before-start {
+  &::before {
+    content: "";
+    width: 2px;
+    background-color: #adadad8a;
+    position: absolute;
+    top: 240px;
+    bottom: 0;
+    right: 85px;
+    z-index: 999;
+
+    @media screen and (max-width: 980px) {
+      right: 15px;
+    }
+  }
+}
+
+@mixin timeline-line-before {
+  &::before {
+    content: "";
+    width: 2px;
+    background-color: #D2D5DA;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    right: 85px;
+    z-index: 999;
+
+    @media screen and (max-width: 980px) {
+      right: 15px;
+    }
+  }
+}

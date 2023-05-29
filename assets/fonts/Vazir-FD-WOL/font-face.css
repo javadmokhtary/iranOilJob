@@ -1,0 +1,21 @@
+@font-face {
+  font-family: VazirFD;
+  src: url('Vazir-Medium-FD.eot');
+  src: url('Vazir-Medium-FD.eot?#iefix') format('embedded-opentype'),
+       url('Vazir-Medium-FD.woff2') format('woff2'),
+       url('Vazir-Medium-FD.woff') format('woff'),
+       url('Vazir-Medium-FD.ttf') format('truetype');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: VazirFDBold;
+  src: url('Vazir-Bold-FD.eot');
+  src: url('Vazir-Bold-FD.eot') format('embedded-opentype'),
+       url('Vazir-Bold-FD.woff2') format('woff2'),
+       url('Vazir-Bold-FD.woff') format('woff'),
+       url('Vazir-Bold-FD.ttf') format('truetype');
+  font-weight: bold;
+  font-display: swap;
+}
