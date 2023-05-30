@@ -134,6 +134,7 @@
   border-radius: 20px;
   padding: 12px;
   margin-left: 24px;
+  scroll-snap-align: start;
 }
 .course-item .course-image {
   cursor: pointer;
@@ -236,6 +237,10 @@
   .course-item button {
     width: 285px;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .header {
@@ -552,7 +557,8 @@
   }
 }
 .main-section .courses-section .course-items-box {
-  overflow-x: auto;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
   padding-bottom: 20px;
 }
 .main-section .courses-section .course-items-box::-webkit-scrollbar {

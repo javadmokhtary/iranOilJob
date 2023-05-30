@@ -6,6 +6,7 @@
     border-radius: 20px;
     padding: 12px;
     margin-left: 24px;
+    scroll-snap-align: start;
     .course-image {
       cursor: pointer;
       background: url('../images/curse-item.png');
